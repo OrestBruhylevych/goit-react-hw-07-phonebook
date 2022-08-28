@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { filter } from '../../redux/contacts/actions';
+import { filter } from 'redux/contacts/actions';
 import { getFilter } from 'redux/contacts/selectors';
 import { FilterStyled } from './Filter.styled';
 
